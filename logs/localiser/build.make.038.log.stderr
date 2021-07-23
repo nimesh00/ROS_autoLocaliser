@@ -1,0 +1,8 @@
+In file included from [01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:1[m[K:
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.h:9:10:[m[K [01;31m[Kfatal error: [m[Kifstream: No such file or directory
+    9 | #include [01;31m[K<ifstream>[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/AMR_CLASS.dir/build.make:63: CMakeFiles/AMR_CLASS.dir/src/AMR.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/AMR_CLASS.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,7 @@
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/poseWriter.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/poseWriter.cpp:14:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kls[m[K’ was not declared in this scope
+   14 |     system([01;31m[Kls[m[K);
+      |            [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/poseManager.dir/build.make:63: CMakeFiles/poseManager.dir/src/poseWriter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:589: CMakeFiles/poseManager.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

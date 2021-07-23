@@ -1,0 +1,20 @@
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:[m[K In member function ‘[01m[Kvoid AMR::write_pose_file()[m[K’:
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:74:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kofstream[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::ofstream[m[K’?
+   74 |     [01;31m[Kofstream[m[K pose_writer(filepath);
+      |     [01;31m[K^~~~~~~~[m[K
+      |     [32m[Kstd::ofstream[m[K
+In file included from [01m[K/usr/include/c++/9/bits/localefwd.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/string:43[m[K,
+                 from [01m[K/opt/ros/noetic/include/geometry_msgs/Pose.h:9[m[K,
+                 from [01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.h:4[m[K,
+                 from [01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:1[m[K:
+[01m[K/usr/include/c++/9/iosfwd:165:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::ofstream[m[K’ declared here
+  165 |   typedef basic_ofstream<char>   [01;36m[Kofstream[m[K;
+      |                                  [01;36m[K^~~~~~~~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:75:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpose_writer[m[K’ was not declared in this scope; did you mean ‘[01m[Kpose_file[m[K’?
+   75 |     [01;31m[Kpose_writer[m[K << curr_pose.position.x << std::endl;
+      |     [01;31m[K^~~~~~~~~~~[m[K
+      |     [32m[Kpose_file[m[K
+make[2]: *** [CMakeFiles/AMR_CLASS.dir/build.make:63: CMakeFiles/AMR_CLASS.dir/src/AMR.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/AMR_CLASS.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

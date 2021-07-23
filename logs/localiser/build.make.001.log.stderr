@@ -1,0 +1,25 @@
+In file included from [01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/poseWriter.cpp:5[m[K:
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.h:15:14:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber[m[K’ in namespace ‘[01m[Kros[m[K’ does not name a type; did you mean ‘[01m[KSubscriber[m[K’?
+   15 |         ros::[01;31m[Ksubscriber[m[K pose_subscriber;
+      |              [01;31m[K^~~~~~~~~~[m[K
+      |              [32m[KSubscriber[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.h:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfstream[m[K’ does not name a type; did you mean ‘[01m[Kfread[m[K’?
+   17 |         [01;31m[Kfstream[m[K pose_file;
+      |         [01;31m[K^~~~~~~[m[K
+      |         [32m[Kfread[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.h:23:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   23 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/poseWriter.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/poseWriter.cpp:17:31:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KAMR::write_pose_file()[m[K’
+   17 |         robot.write_pose_file([01;31m[K)[m[K;
+      |                               [01;31m[K^[m[K
+In file included from [01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/poseWriter.cpp:5[m[K:
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.h:22:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid AMR::write_pose_file(geometry_msgs::Pose)[m[K’
+   22 |         void [01;36m[Kwrite_pose_file[m[K(geometry_msgs::Pose);
+      |              [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.h:22:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+make[2]: *** [CMakeFiles/poseManager.dir/build.make:63: CMakeFiles/poseManager.dir/src/poseWriter.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:560: CMakeFiles/poseManager.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

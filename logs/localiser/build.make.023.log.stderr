@@ -1,0 +1,6 @@
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:67:16:[m[K [01;31m[Kerror: [m[Kreturn type specification for destructor invalid
+   67 | void AMR::~AMR([01;31m[K)[m[K {
+      |                [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/AMR_CLASS.dir/build.make:63: CMakeFiles/AMR_CLASS.dir/src/AMR.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/AMR_CLASS.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

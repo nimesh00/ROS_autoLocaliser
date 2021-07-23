@@ -1,0 +1,13 @@
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:[m[K In constructor ‘[01m[KAMR::AMR(ros::NodeHandle)[m[K’:
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:36:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct geometry_msgs::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+   36 |             init_pose.pose.pose.position.x = p -> [01;31m[Kdata[m[K -> position -> x;
+      |                                                   [01;31m[K^~~~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:37:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct geometry_msgs::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+   37 |             init_pose.pose.pose.position.y = p -> [01;31m[Kdata[m[K -> position -> y;
+      |                                                   [01;31m[K^~~~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:38:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct geometry_msgs::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+   38 |             init_pose.pose.pose.position.z = p -> [01;31m[Kdata[m[K -> position -> z;
+      |                                                   [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/AMR_CLASS.dir/build.make:63: CMakeFiles/AMR_CLASS.dir/src/AMR.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/AMR_CLASS.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,8 @@
+prefix=/home/nimesh/dev/anscer_PS/install
+
+Name: localiser
+Description: Description of localiser
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

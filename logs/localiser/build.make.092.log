@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target AMR_CLASS[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/AMR_CLASS.dir/src/AMR.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library /home/nimesh/dev/anscer_PS/devel/.private/localiser/lib/libAMR_CLASS.so[0m
+[ 50%] Built target AMR_CLASS
+[ 75%] [32m[1mLinking CXX executable /home/nimesh/dev/anscer_PS/devel/.private/localiser/lib/localiser/poseManager[0m
+[100%] Built target poseManager

@@ -1,0 +1,5 @@
+[ 50%] Built target AMR_CLASS
+[35m[1mScanning dependencies of target poseManager[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/poseManager.dir/src/poseWriter.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/nimesh/dev/anscer_PS/devel/.private/localiser/lib/localiser/poseManager[0m
+[100%] Built target poseManager

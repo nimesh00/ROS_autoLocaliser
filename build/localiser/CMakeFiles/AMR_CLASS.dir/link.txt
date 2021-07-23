@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libAMR_CLASS.so -o /home/nimesh/dev/anscer_PS/devel/.private/localiser/lib/libAMR_CLASS.so CMakeFiles/AMR_CLASS.dir/src/AMR.cpp.o 
