@@ -1,0 +1,18 @@
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:[m[K In member function ‘[01m[Kvoid AMR::read_pose_file()[m[K’:
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:24:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kios[m[K’ has not been declared
+   24 |     pose_file.open(filepath, [01;31m[Kios[m[K::in);
+      |                              [01;31m[K^~~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:29:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kios[m[K’ has not been declared
+   29 |     pose_file.seekg([01;31m[Kios[m[K::beg);
+      |                     [01;31m[K^~~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:[m[K In member function ‘[01m[Kvoid AMR::write_pose_file()[m[K’:
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:57:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kios[m[K’ has not been declared
+   57 |     pose_file.open(filepath, [01;31m[Kios[m[K::out);
+      |                              [01;31m[K^~~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:[m[K At global scope:
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:67:16:[m[K [01;31m[Kerror: [m[Kreturn type specification for destructor invalid
+   67 | void AMR::~AMR([01;31m[K)[m[K {
+      |                [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/AMR_CLASS.dir/build.make:63: CMakeFiles/AMR_CLASS.dir/src/AMR.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/AMR_CLASS.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

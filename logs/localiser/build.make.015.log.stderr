@@ -1,0 +1,60 @@
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:[m[K In member function ‘[01m[Kvoid AMR::pose_callback(const ConstPtr&)[m[K’:
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:4:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct geometry_msgs::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+    4 |     curr_pose.position.x = msg -> [01;31m[Kdata[m[K -> position -> x;
+      |                                   [01;31m[K^~~~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:5:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct geometry_msgs::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+    5 |     curr_pose.position.y = msg -> [01;31m[Kdata[m[K -> position -> y;
+      |                                   [01;31m[K^~~~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:6:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct geometry_msgs::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+    6 |     curr_pose.position.z = msg -> [01;31m[Kdata[m[K -> position -> z;
+      |                                   [01;31m[K^~~~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:7:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct geometry_msgs::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+    7 |     curr_pose.orientation.x = msg -> [01;31m[Kdata[m[K -> orientation -> x;
+      |                                      [01;31m[K^~~~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:8:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct geometry_msgs::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+    8 |     curr_pose.orientation.y = msg -> [01;31m[Kdata[m[K -> orientation -> y;
+      |                                      [01;31m[K^~~~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:9:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct geometry_msgs::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+    9 |     curr_pose.orientation.z = msg -> [01;31m[Kdata[m[K -> orientation -> z;
+      |                                      [01;31m[K^~~~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:10:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct geometry_msgs::Pose_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+   10 |     curr_pose.orientation.w = msg -> [01;31m[Kdata[m[K -> orientation -> w;
+      |                                      [01;31m[K^~~~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:[m[K At global scope:
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:13:33:[m[K [01;31m[Kerror: [m[Kreturn type specification for constructor invalid
+   13 | void AMR::AMR(ros::NodeHandle nh[01;31m[K)[m[K {
+      |                                 [01;31m[K^[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:[m[K In constructor ‘[01m[KAMR::AMR(ros::NodeHandle)[m[K’:
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:15:76:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid AMR::pose_callback(const ConstPtr&)[m[K’
+   15 |     pose_subscriber = nh.subscribe<geometry_msgs::Pose>("/robot_pose", 10, [01;31m[Kpose_callback[m[K);
+      |                                                                            [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:3:6:[m[K [01;36m[Knote: [m[Kdeclared here
+    3 | void [01;36m[KAMR[m[K::pose_callback(const geometry_msgs::Pose::ConstPtr& msg) {
+      |      [01;36m[K^~~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:[m[K In member function ‘[01m[Kvoid AMR::read_pose_file()[m[K’:
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:23:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kios[m[K’ has not been declared
+   23 |     pose_file.open(filepath, [01;31m[Kios[m[K::in);
+      |                              [01;31m[K^~~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:28:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kios[m[K’ has not been declared
+   28 |     pose_file.seekg([01;31m[Kios[m[K::beg);
+      |                     [01;31m[K^~~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:[m[K In member function ‘[01m[Kvoid AMR::write_pose_file()[m[K’:
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:56:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kios[m[K’ has not been declared
+   56 |     pose_file.open(filepath, [01;31m[Kios[m[K::out);
+      |                              [01;31m[K^~~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:[m[K At global scope:
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:66:16:[m[K [01;31m[Kerror: [m[Kreturn type specification for destructor invalid
+   66 | void AMR::~AMR([01;31m[K)[m[K {
+      |                [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/localiser.dir/build.make:63: CMakeFiles/localiser.dir/src/AMR.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/localiser.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: CMakeFiles/poseManager.dir/src/poseWriter.cpp.o: in function `main':
+poseWriter.cpp:(.text+0x177): undefined reference to `AMR::AMR(ros::NodeHandle)'
+/usr/bin/ld: poseWriter.cpp:(.text+0x1b9): undefined reference to `AMR::write_pose_file()'
+/usr/bin/ld: poseWriter.cpp:(.text+0x1ca): undefined reference to `AMR::~AMR()'
+/usr/bin/ld: poseWriter.cpp:(.text+0x28d): undefined reference to `AMR::~AMR()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/poseManager.dir/build.make:101: /home/nimesh/dev/anscer_PS/devel/.private/localiser/lib/localiser/poseManager] Error 1
+make[1]: *** [CMakeFiles/Makefile2:589: CMakeFiles/poseManager.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

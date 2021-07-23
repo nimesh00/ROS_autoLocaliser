@@ -1,0 +1,8 @@
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:[m[K In member function ‘[01m[Kvoid AMR::read_pose_file()[m[K’:
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:52:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_line[m[K’ was not declared in this scope; did you mean ‘[01m[Kgetline[m[K’?
+   52 |         while ([01;31m[Kget_line[m[K(pose_reader, dataline)) {
+      |                [01;31m[K^~~~~~~~[m[K
+      |                [32m[Kgetline[m[K
+make[2]: *** [CMakeFiles/AMR_CLASS.dir/build.make:63: CMakeFiles/AMR_CLASS.dir/src/AMR.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/AMR_CLASS.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

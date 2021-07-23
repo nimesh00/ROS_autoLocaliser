@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target AMR_CLASS[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/AMR_CLASS.dir/src/AMR.cpp.o[0m
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:50:37:[m[K [01;31m[Kerror: [m[Kempty character constant
+   50 |         init_pose.header.frame_id = [01;31m[K''[m[K;
+      |                                     [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/AMR_CLASS.dir/build.make:63: CMakeFiles/AMR_CLASS.dir/src/AMR.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:869: CMakeFiles/AMR_CLASS.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

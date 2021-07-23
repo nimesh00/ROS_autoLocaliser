@@ -1,0 +1,13 @@
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:[m[K In constructor ‘[01m[KAMR::AMR(ros::NodeHandle)[m[K’:
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:36:60:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst _position_type[m[K’ {aka ‘[01m[Kconst geometry_msgs::Point_<std::allocator<void> >[m[K’}
+   36 |             init_pose.pose.pose.position.x = p -> position [01;31m[K->[m[K x;
+      |                                                            [01;31m[K^~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:37:60:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst _position_type[m[K’ {aka ‘[01m[Kconst geometry_msgs::Point_<std::allocator<void> >[m[K’}
+   37 |             init_pose.pose.pose.position.y = p -> position [01;31m[K->[m[K y;
+      |                                                            [01;31m[K^~[m[K
+[01m[K/home/nimesh/dev/anscer_PS/src/localiser/src/AMR.cpp:38:60:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst _position_type[m[K’ {aka ‘[01m[Kconst geometry_msgs::Point_<std::allocator<void> >[m[K’}
+   38 |             init_pose.pose.pose.position.z = p -> position [01;31m[K->[m[K z;
+      |                                                            [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/AMR_CLASS.dir/build.make:63: CMakeFiles/AMR_CLASS.dir/src/AMR.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/AMR_CLASS.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
